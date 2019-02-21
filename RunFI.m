@@ -13,5 +13,6 @@
 % Log = PrintLog( Log, ' [ DONE ]', 3, handles.outputLog );
 % Log = PrintLog( Log, ' ', 1, handles.outputLog );
 % Log = PrintLog( Log, '------------------------------------------------', 2, handles.outputLog );
+% Log = PrintLog( Log, ' ', 1, handles.outputLog );
 
 %-------------------------------------------------------------------------%

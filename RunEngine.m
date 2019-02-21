@@ -80,9 +80,11 @@ assignin( 'base', 'fault', fault );
 %-------------------------------------------------------------------------%
 % Generate reference signals for engine speed and torque based on driving cycle
 %-------------------------------------------------------------------------%
+Log = PrintLog( Log, 'Generating reference signals.........', 1, handles.outputLog );
 load_system( 'RefGen' );
 sim( 'RefGen', max( T_z ) );
 bdclose RefGen;
+Log = PrintLog( Log, ' [ DONE ]', 3, handles.outputLog );
 
 %-------------------------------------------------------------------------%
 %                          Simulate engine system
@@ -94,11 +96,15 @@ end
 
 Log = PrintLog( Log, 'Loading engine system................', 1, handles.outputLog );
 pause( 0.1 );
-open( 'Engine' );
+% open( 'Engine' );
+load_system( 'Engine' );
+open_system( 'Engine/Torque Measurements' );
+open_system( 'Engine/Sensor Measurements' );
 Log = PrintLog( Log, ' [ DONE ]', 3, handles.outputLog );
 Log = PrintLog( Log, 'Simulating engine system.............', 1, handles.outputLog );
 sim( 'Engine',T_z(end) );
 bdclose Engine;
+Log = PrintLog( Log, ' [ DONE ]', 3, handles.outputLog );
 
 %-------------------------------------------------------------------------%
 %          Collection of fault, inputs, and outputs signals
@@ -143,7 +149,6 @@ xlabel( 'Time (s)' );
 title( ['Fault Signal for ' faultSig.Name{fault} ' (normalised)'] );
 xlim( [0 faultSig.Time(end)] );
 grid( 'on' );
-Log = PrintLog( Log, ' [ DONE ]', 3, handles.outputLog );
 Log = PrintLog( Log, sprintf( ' ' ), 1, handles.outputLog );
 Log = PrintLog( Log, '------------------------------------------------', 2, handles.outputLog );
 Log = PrintLog( Log, sprintf( ' ' ), 1, handles.outputLog );

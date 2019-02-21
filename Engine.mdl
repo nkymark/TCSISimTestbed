@@ -6,7 +6,7 @@ Model {
     NumRootInports	    0
     NumRootOutports	    0
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.195"
+    ComputedModelVersion    "1.212"
     NumModelReferences	    0
     NumTestPointedSignals   0
     NumProvidedFunctions    0
@@ -88,8 +88,8 @@ Model {
 	  ViewObjType		  "SimulinkTopLevel"
 	  LoadSaveID		  "0"
 	  Extents		  [1402.0, 644.0]
-	  ZoomFactor		  [1.0502983802216539]
-	  Offset		  [41.883116883116941, 197.67045454545456]
+	  ZoomFactor		  [1.0]
+	  Offset		  [1.0430194805194333, 186.51217532467535]
 	}
 	Object {
 	  $ObjectID		  6
@@ -97,8 +97,8 @@ Model {
 	  ViewObjType		  "SimulinkSubsys"
 	  LoadSaveID		  "953"
 	  Extents		  [1402.0, 644.0]
-	  ZoomFactor		  [0.60263933383709545]
-	  Offset		  [18.456357899035766, -40.467642749302627]
+	  ZoomFactor		  [0.60307793597234793]
+	  Offset		  [18.473253275109073, -39.867695574184665]
 	}
 	PropName		"EditorsInfo"
       }
@@ -134,9 +134,9 @@ Model {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "markng"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Sun Feb 17 01:02:17 2019"
-  RTWModifiedTimeStamp	  472266136
-  ModelVersionFormat	  "1.%<AutoIncrement:195>"
+  LastModifiedDate	  "Thu Feb 21 12:14:33 2019"
+  RTWModifiedTimeStamp	  472652031
+  ModelVersionFormat	  "1.%<AutoIncrement:212>"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
   LibraryLinkDisplay	  "all"
@@ -207,6 +207,12 @@ Model {
       PropName		      "logAsSpecifiedByModelsSSIDs_"
     }
   }
+  Object {
+    $PropName		    "InstrumentedSignals"
+    $ObjectID		    9
+    $ClassName		    "Simulink.HMI.InstrumentedSignals"
+    Persistence		    []
+  }
   ExtModeBatchMode	  off
   ExtModeEnableFloating	  on
   ExtModeTrigType	  "manual"
@@ -235,7 +241,7 @@ Model {
     Type		    "Handle"
     Dimension		    1
     Simulink.ConfigSet {
-      $ObjectID		      9
+      $ObjectID		      10
       Version		      "1.18.1"
       DisabledProps	      []
       Description	      ""
@@ -243,7 +249,7 @@ Model {
 	Type			"Handle"
 	Dimension		9
 	Simulink.SolverCC {
-	  $ObjectID		  10
+	  $ObjectID		  11
 	  Version		  "1.18.1"
 	  DisabledProps		  []
 	  Description		  ""
@@ -284,7 +290,7 @@ Model {
 	  MinimalZcImpactIntegration off
 	}
 	Simulink.DataIOCC {
-	  $ObjectID		  11
+	  $ObjectID		  12
 	  Version		  "1.18.1"
 	  DisabledProps		  []
 	  Description		  ""
@@ -325,7 +331,7 @@ Model {
 	  LoggingIntervals	  "[-inf, inf]"
 	}
 	Simulink.OptimizationCC {
-	  $ObjectID		  12
+	  $ObjectID		  13
 	  Version		  "1.18.1"
 	  Array {
 	    Type		    "Cell"
@@ -392,7 +398,7 @@ Model {
 	  LabelGuidedReuse	  off
 	}
 	Simulink.DebuggingCC {
-	  $ObjectID		  13
+	  $ObjectID		  14
 	  Version		  "1.18.1"
 	  Array {
 	    Type		    "Cell"
@@ -511,7 +517,7 @@ Model {
 	  UnderSpecifiedDimensionMsg "none"
 	}
 	Simulink.HardwareCC {
-	  $ObjectID		  14
+	  $ObjectID		  15
 	  Version		  "1.18.1"
 	  DisabledProps		  []
 	  Description		  ""
@@ -559,7 +565,7 @@ Model {
 	  UseSimulinkCoderFeatures on
 	}
 	Simulink.ModelReferenceCC {
-	  $ObjectID		  15
+	  $ObjectID		  16
 	  Version		  "1.18.1"
 	  DisabledProps		  []
 	  Description		  ""
@@ -578,7 +584,7 @@ Model {
 	  SupportModelReferenceSimTargetCustomCode off
 	}
 	Simulink.SFSimCC {
-	  $ObjectID		  16
+	  $ObjectID		  17
 	  Version		  "1.18.1"
 	  DisabledProps		  []
 	  Description		  ""
@@ -611,7 +617,7 @@ Model {
 	}
 	Simulink.RTWCC {
 	  $BackupClass		  "Simulink.RTWCC"
-	  $ObjectID		  17
+	  $ObjectID		  18
 	  Version		  "1.18.1"
 	  Array {
 	    Type		    "Cell"
@@ -698,7 +704,7 @@ Model {
 	    Type		    "Handle"
 	    Dimension		    2
 	    Simulink.CodeAppCC {
-	      $ObjectID		      18
+	      $ObjectID		      19
 	      Version		      "1.18.1"
 	      Array {
 		Type			"Cell"
@@ -786,7 +792,7 @@ Model {
 	    }
 	    Simulink.GRTTargetCC {
 	      $BackupClass	      "Simulink.TargetCC"
-	      $ObjectID		      19
+	      $ObjectID		      20
 	      Version		      "1.18.1"
 	      Array {
 		Type			"Cell"
@@ -892,7 +898,7 @@ Model {
 	  }
 	}
 	SlCovCC.ConfigComp {
-	  $ObjectID		  20
+	  $ObjectID		  21
 	  Version		  "1.18.1"
 	  DisabledProps		  []
 	  Description		  "Simulink Coverage Configuration Component"
@@ -942,11 +948,11 @@ Model {
   }
   Simulink.ConfigSet {
     $PropName		    "ActiveConfigurationSet"
-    $ObjectID		    9
+    $ObjectID		    10
   }
   Object {
     $PropName		    "DataTransfer"
-    $ObjectID		    21
+    $ObjectID		    22
     $ClassName		    "Simulink.GlobalDataTransfer"
     DefaultTransitionBetweenSyncTasks "Ensure deterministic transfer (maximum delay)"
     DefaultTransitionBetweenAsyncTasks "Ensure data integrity only"
@@ -1302,6 +1308,10 @@ Model {
       RndMeth		      "Floor"
     }
     Block {
+      BlockType		      Scope
+      DefaultConfigurationName "Simulink.scopes.TimeScopeBlockCfg"
+    }
+    Block {
       BlockType		      Signum
       ZeroCross		      on
       SampleTime	      "-1"
@@ -1432,9 +1442,9 @@ Model {
     TiledPaperMargins	    [0.196850, 0.196850, 0.196850, 0.196850]
     TiledPageScale	    1
     ShowPageBoundaries	    off
-    ZoomFactor		    "105"
+    ZoomFactor		    "100"
     ReportName		    "simulink-default.rpt"
-    SIDHighWatermark	    "4659"
+    SIDHighWatermark	    "4661"
     Block {
       BlockType		      SubSystem
       Name		      "Boost Controller"
@@ -4245,7 +4255,7 @@ Model {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    22
+	    $ObjectID		    23
 	    $ClassName		    "Simulink.Mask"
 	    Type		    "Control volume"
 	    Description		    "Model of a control volume i.e. a receiver of constant volume.\nTakes mass and energy balance in"
@@ -4256,35 +4266,35 @@ Model {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      5
 	      Object {
-		$ObjectID		23
+		$ObjectID		24
 		Type			"edit"
 		Name			"V"
 		Prompt			"Volume [m^3]"
 		Value			"TC_ENGINE.controlVolumes.airFilter.V"
 	      }
 	      Object {
-		$ObjectID		24
+		$ObjectID		25
 		Type			"edit"
 		Name			"T_init"
 		Prompt			"Initial temperature [K]"
 		Value			"293"
 	      }
 	      Object {
-		$ObjectID		25
+		$ObjectID		26
 		Type			"edit"
 		Name			"p_init"
 		Prompt			"Initial pressure [Pa]"
 		Value			"101e3"
 	      }
 	      Object {
-		$ObjectID		26
+		$ObjectID		27
 		Type			"edit"
 		Name			"R"
 		Prompt			"Gas constant [J/kg K]"
 		Value			"TC_ENGINE.gasProp.air.R"
 	      }
 	      Object {
-		$ObjectID		27
+		$ObjectID		28
 		Type			"edit"
 		Name			"gamma"
 		Prompt			"Ratio of specific heats (gamma) [-]"
@@ -4821,7 +4831,7 @@ Model {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    28
+	    $ObjectID		    29
 	    $ClassName		    "Simulink.Mask"
 	    Type		    "Restriction Incompressible Flow"
 	    Description		    "Flow restriction for incompressible flows.\n\nThe flow is modelled using the following function"
@@ -4834,14 +4844,14 @@ Model {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      2
 	      Object {
-		$ObjectID		29
+		$ObjectID		30
 		Type			"edit"
 		Name			"H"
 		Prompt			"Flow resistance"
 		Value			"TC_ENGINE.airFilter.H"
 	      }
 	      Object {
-		$ObjectID		30
+		$ObjectID		31
 		Type			"edit"
 		Name			"p_lin"
 		Prompt			"Linearization limit [Pa]"
@@ -6055,7 +6065,7 @@ Model {
 		    RequestExecContextInheritance off
 		    Object {
 		    $PropName		    "MaskObject"
-		    $ObjectID		    31
+		    $ObjectID		    32
 		    $ClassName		    "Simulink.Mask"
 		    Type		    "Compressor Efficiency"
 		    Description		    "Calculates the compressor efficiency based on a simple\nquadratic function in Phi. The maximum"
@@ -6067,21 +6077,21 @@ Model {
 		    Type		    "Simulink.MaskParameter"
 		    Dimension		    3
 		    Object {
-		    $ObjectID		    32
+		    $ObjectID		    33
 		    Type		    "edit"
 		    Name		    "eta_max"
 		    Prompt		    "Maximum efficiency [-]"
 		    Value		    "TC_ENGINE.compressor.eta_max"
 		    }
 		    Object {
-		    $ObjectID		    33
+		    $ObjectID		    34
 		    Type		    "edit"
 		    Name		    "Phi_max"
 		    Prompt		    "Phi at max efficiency [-]"
 		    Value		    "TC_ENGINE.compressor.Phi_at_eta_max"
 		    }
 		    Object {
-		    $ObjectID		    34
+		    $ObjectID		    35
 		    Type		    "edit"
 		    Name		    "eta_min"
 		    Prompt		    "Minimum efficiency [-]"
@@ -6304,7 +6314,7 @@ Model {
 		    RequestExecContextInheritance off
 		    Object {
 		    $PropName		    "MaskObject"
-		    $ObjectID		    35
+		    $ObjectID		    36
 		    $ClassName		    "Simulink.Mask"
 		    Type		    "Dimensionless Compressible Flow Parameter, Phi"
 		    Description		    "Calculation of the dimensionless compressible flow\nparameter Phi, according to\nPhi=Wc/(rho N"
@@ -6315,14 +6325,14 @@ Model {
 		    Type		    "Simulink.MaskParameter"
 		    Dimension		    2
 		    Object {
-		    $ObjectID		    36
+		    $ObjectID		    37
 		    Type		    "edit"
 		    Name		    "D"
 		    Prompt		    "Compressor Diameter, D [m]"
 		    Value		    "TC_ENGINE.compressor.D"
 		    }
 		    Object {
-		    $ObjectID		    37
+		    $ObjectID		    38
 		    Type		    "edit"
 		    Name		    "R"
 		    Prompt		    "Ideal gas constant, R [J/kg K]"
@@ -6648,7 +6658,7 @@ Model {
 		    RequestExecContextInheritance off
 		    Object {
 		    $PropName		    "MaskObject"
-		    $ObjectID		    38
+		    $ObjectID		    39
 		    $ClassName		    "Simulink.Mask"
 		    Type		    "Calculation of Compressible Head Parameter"
 		    Description		    "Calculates the dimensionless head parameter Psi."
@@ -6658,21 +6668,21 @@ Model {
 		    Type		    "Simulink.MaskParameter"
 		    Dimension		    3
 		    Object {
-		    $ObjectID		    39
+		    $ObjectID		    40
 		    Type		    "edit"
 		    Name		    "D"
 		    Prompt		    "Compressor Diameter, D [m]"
 		    Value		    "TC_ENGINE.compressor.D"
 		    }
 		    Object {
-		    $ObjectID		    40
+		    $ObjectID		    41
 		    Type		    "edit"
 		    Name		    "gamma"
 		    Prompt		    "Ratio of Specific Heats, gamma [-]"
 		    Value		    "TC_ENGINE.gasProp.air.kappa"
 		    }
 		    Object {
-		    $ObjectID		    41
+		    $ObjectID		    42
 		    Type		    "edit"
 		    Name		    "c_p"
 		    Prompt		    "Specific Heat, c_p [J/kg K]"
@@ -6983,7 +6993,7 @@ Model {
 		    RequestExecContextInheritance off
 		    Object {
 		    $PropName		    "MaskObject"
-		    $ObjectID		    42
+		    $ObjectID		    43
 		    $ClassName		    "Simulink.Mask"
 		    Type		    "Compressor Flow calculation"
 		    Description		    "Calculates the dimensionless flow variable from the\ndimensionless head parameter according to"
@@ -6993,14 +7003,14 @@ Model {
 		    Type		    "Simulink.MaskParameter"
 		    Dimension		    2
 		    Object {
-		    $ObjectID		    43
+		    $ObjectID		    44
 		    Type		    "edit"
 		    Name		    "Psi_max"
 		    Prompt		    "Maximum Psi [-]"
 		    Value		    "TC_ENGINE.compressor.Psi_max"
 		    }
 		    Object {
-		    $ObjectID		    44
+		    $ObjectID		    45
 		    Type		    "edit"
 		    Name		    "Phi_max"
 		    Prompt		    "Maximum Phi [-]"
@@ -7183,7 +7193,7 @@ Model {
 		    RequestExecContextInheritance off
 		    Object {
 		    $PropName		    "MaskObject"
-		    $ObjectID		    45
+		    $ObjectID		    46
 		    $ClassName		    "Simulink.Mask"
 		    Type		    "Mass Flow from Phi"
 		    Description		    "Calculates compressor mass flow from the compressible\ndimensionless flow parameter Phi."
@@ -7193,14 +7203,14 @@ Model {
 		    Type		    "Simulink.MaskParameter"
 		    Dimension		    2
 		    Object {
-		    $ObjectID		    46
+		    $ObjectID		    47
 		    Type		    "edit"
 		    Name		    "D"
 		    Prompt		    "Compressor Diameter, D [m]"
 		    Value		    "TC_ENGINE.compressor.D"
 		    }
 		    Object {
-		    $ObjectID		    47
+		    $ObjectID		    48
 		    Type		    "edit"
 		    Name		    "R"
 		    Prompt		    "Ideal Gas Constant, R [J/kg K]"
@@ -7500,7 +7510,7 @@ Model {
 		  RequestExecContextInheritance	off
 		  Object {
 		    $PropName		    "MaskObject"
-		    $ObjectID		    48
+		    $ObjectID		    49
 		    $ClassName		    "Simulink.Mask"
 		    Type		    "Compressor Temperature"
 		    Description		    "Compressor temperature increase.\nIt is determined directly from the definition compressor\nef"
@@ -7508,7 +7518,7 @@ Model {
 		    Help		    "Enter the value for the ratio of specific heat\nfor the compressor."
 		    Object {
 		    $PropName		    "Parameters"
-		    $ObjectID		    49
+		    $ObjectID		    50
 		    $ClassName		    "Simulink.MaskParameter"
 		    Type		    "edit"
 		    Name		    "gamma_c"
@@ -7746,7 +7756,7 @@ Model {
 		  RequestExecContextInheritance	off
 		  Object {
 		    $PropName		    "MaskObject"
-		    $ObjectID		    50
+		    $ObjectID		    51
 		    $ClassName		    "Simulink.Mask"
 		    Type		    "Compressor Torque"
 		    Description		    "Calculates the compressor torque.\nIt is calculated using the control volume analysis of a\nco"
@@ -7754,7 +7764,7 @@ Model {
 		    Help		    "Enter the value for the specific heat c_p in the dialog box."
 		    Object {
 		    $PropName		    "Parameters"
-		    $ObjectID		    51
+		    $ObjectID		    52
 		    $ClassName		    "Simulink.MaskParameter"
 		    Type		    "edit"
 		    Name		    "c_p"
@@ -8415,7 +8425,7 @@ Model {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    52
+	    $ObjectID		    53
 	    $ClassName		    "Simulink.Mask"
 	    Type		    "Control volume"
 	    Description		    "Model of a control volume i.e. a receiver of constant volume.\nTakes mass and energy balance in"
@@ -8426,35 +8436,35 @@ Model {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      5
 	      Object {
-		$ObjectID		53
+		$ObjectID		54
 		Type			"edit"
 		Name			"V"
 		Prompt			"Volume [m^3]"
 		Value			"TC_ENGINE.controlVolumes.compressor.V"
 	      }
 	      Object {
-		$ObjectID		54
+		$ObjectID		55
 		Type			"edit"
 		Name			"T_init"
 		Prompt			"Initial temperature [K]"
 		Value			"293"
 	      }
 	      Object {
-		$ObjectID		55
+		$ObjectID		56
 		Type			"edit"
 		Name			"p_init"
 		Prompt			"Initial pressure [Pa]"
 		Value			"101e3"
 	      }
 	      Object {
-		$ObjectID		56
+		$ObjectID		57
 		Type			"edit"
 		Name			"R"
 		Prompt			"Gas constant [J/kg K]"
 		Value			"TC_ENGINE.gasProp.air.R"
 	      }
 	      Object {
-		$ObjectID		57
+		$ObjectID		58
 		Type			"edit"
 		Name			"gamma"
 		Prompt			"Ratio of specific heats (gamma) [-]"
@@ -9086,7 +9096,7 @@ Model {
 	      RequestExecContextInheritance off
 	      Object {
 		$PropName		"MaskObject"
-		$ObjectID		58
+		$ObjectID		59
 		$ClassName		"Simulink.Mask"
 		Type			"Engine Torque"
 		Description		"Models the engine torque using:\n1) an ideal otto cycle model for the gross work produced by the combu"
@@ -9097,70 +9107,70 @@ Model {
 		  Type			  "Simulink.MaskParameter"
 		  Dimension		  10
 		  Object {
-		    $ObjectID		    59
+		    $ObjectID		    60
 		    Type		    "edit"
 		    Name		    "V_d"
 		    Prompt		    "Displacement volume [m^3]"
 		    Value		    "TC_ENGINE.geometry.V_d"
 		  }
 		  Object {
-		    $ObjectID		    60
+		    $ObjectID		    61
 		    Type		    "edit"
 		    Name		    "n_cyl"
 		    Prompt		    "Nymber of cylinders [-]"
 		    Value		    "TC_ENGINE.geometry.n_cyl"
 		  }
 		  Object {
-		    $ObjectID		    61
+		    $ObjectID		    62
 		    Type		    "edit"
 		    Name		    "bore"
 		    Prompt		    "Bore [m]"
 		    Value		    "0.09"
 		  }
 		  Object {
-		    $ObjectID		    62
+		    $ObjectID		    63
 		    Type		    "edit"
 		    Name		    "q_HV"
 		    Prompt		    "Fuel lower heating value [J/kg]"
 		    Value		    "44e6"
 		  }
 		  Object {
-		    $ObjectID		    63
+		    $ObjectID		    64
 		    Type		    "edit"
 		    Name		    "AF_s"
 		    Prompt		    "Stoichiometric air to fuel ratio [-]"
 		    Value		    "15.1"
 		  }
 		  Object {
-		    $ObjectID		    64
+		    $ObjectID		    65
 		    Type		    "edit"
 		    Name		    "etaOtto"
 		    Prompt		    "Gross efficiency [-]"
 		    Value		    "0.41"
 		  }
 		  Object {
-		    $ObjectID		    65
+		    $ObjectID		    66
 		    Type		    "edit"
 		    Name		    "PI_bl"
 		    Prompt		    "Boost layout (>1) [-]"
 		    Value		    "1.5"
 		  }
 		  Object {
-		    $ObjectID		    66
+		    $ObjectID		    67
 		    Type		    "edit"
 		    Name		    "aux_dev"
 		    Prompt		    "Factor for auxilliary devices (>1) [-]"
 		    Value		    "1.3"
 		  }
 		  Object {
-		    $ObjectID		    67
+		    $ObjectID		    68
 		    Type		    "edit"
 		    Name		    "C_tq1"
 		    Prompt		    "BMEP parameter C_tq1"
 		    Value		    "0.2e6"
 		  }
 		  Object {
-		    $ObjectID		    68
+		    $ObjectID		    69
 		    Type		    "edit"
 		    Name		    "C_tq2"
 		    Prompt		    "BMEP parameter C_tq2"
@@ -9935,7 +9945,7 @@ Model {
 	      RequestExecContextInheritance off
 	      Object {
 		$PropName		"MaskObject"
-		$ObjectID		69
+		$ObjectID		70
 		$ClassName		"Simulink.Mask"
 		Type			"Engine flow"
 		Description		"The engine flow is modelled based on the volumetric efficiency. The volumetric efficiency is modelled "
@@ -9948,35 +9958,35 @@ Model {
 		  Type			  "Simulink.MaskParameter"
 		  Dimension		  5
 		  Object {
-		    $ObjectID		    70
+		    $ObjectID		    71
 		    Type		    "edit"
 		    Name		    "V_d"
 		    Prompt		    "Engine displacement, V_d [m^3]"
 		    Value		    "TC_ENGINE.geometry.V_d"
 		  }
 		  Object {
-		    $ObjectID		    71
+		    $ObjectID		    72
 		    Type		    "edit"
 		    Name		    "r_c"
 		    Prompt		    "Compression ratio, r_c [-]"
 		    Value		    "TC_ENGINE.geometry.r_c"
 		  }
 		  Object {
-		    $ObjectID		    72
+		    $ObjectID		    73
 		    Type		    "edit"
 		    Name		    "C"
 		    Prompt		    "Volumetric constant, C [-]"
 		    Value		    "0.8"
 		  }
 		  Object {
-		    $ObjectID		    73
+		    $ObjectID		    74
 		    Type		    "edit"
 		    Name		    "R"
 		    Prompt		    "Ideal gas constant (fresh gas), R [J/kg K]"
 		    Value		    "TC_ENGINE.gasProp.air.R"
 		  }
 		  Object {
-		    $ObjectID		    74
+		    $ObjectID		    75
 		    Type		    "edit"
 		    Name		    "K"
 		    Prompt		    "Ratio of specific heats (exhaust  gamma) [-]"
@@ -10400,21 +10410,21 @@ Model {
 	      RequestExecContextInheritance off
 	      Object {
 		$PropName		"MaskObject"
-		$ObjectID		75
+		$ObjectID		76
 		$ClassName		"Simulink.Mask"
 		Type			"Engine out temperature"
 		Array {
 		  Type			  "Simulink.MaskParameter"
 		  Dimension		  2
 		  Object {
-		    $ObjectID		    76
+		    $ObjectID		    77
 		    Type		    "edit"
 		    Name		    "T_0"
 		    Prompt		    "Zero flow temperature [K]"
 		    Value		    "TC_ENGINE.exhTemp.zeroFlowTemp"
 		  }
 		  Object {
-		    $ObjectID		    77
+		    $ObjectID		    78
 		    Type		    "edit"
 		    Name		    "C"
 		    Prompt		    "Temperature change with flow [K s/kg]"
@@ -10529,7 +10539,7 @@ Model {
 	      RequestExecContextInheritance off
 	      Object {
 		$PropName		"MaskObject"
-		$ObjectID		78
+		$ObjectID		79
 		$ClassName		"Simulink.Mask"
 		Type			"Exhaust heat transfer"
 		Description		"Calculates the temperature drop in a pipe using the Model 1 in SAE paper by Lars Eriksson."
@@ -10538,7 +10548,7 @@ Model {
 		  Type			  "Simulink.MaskParameter"
 		  Dimension		  9
 		  Object {
-		    $ObjectID		    79
+		    $ObjectID		    80
 		    Type		    "popup"
 		    Array {
 		    Type		    "Cell"
@@ -10567,56 +10577,56 @@ Model {
 		    Value		    "Meisner Sorenson"
 		  }
 		  Object {
-		    $ObjectID		    80
+		    $ObjectID		    81
 		    Type		    "edit"
 		    Name		    "D"
 		    Prompt		    "Pipe diameter [m]"
 		    Value		    "TC_ENGINE.exhMan.eManDiam"
 		  }
 		  Object {
-		    $ObjectID		    81
+		    $ObjectID		    82
 		    Type		    "edit"
 		    Name		    "L"
 		    Prompt		    "Pipe length [m]"
 		    Value		    "TC_ENGINE.exhMan.eManLen"
 		  }
 		  Object {
-		    $ObjectID		    82
+		    $ObjectID		    83
 		    Type		    "edit"
 		    Name		    "n_cyl"
 		    Prompt		    "Number of parallell pipes [-]"
 		    Value		    "TC_ENGINE.exhMan.nrOfParallelPipes"
 		  }
 		  Object {
-		    $ObjectID		    83
+		    $ObjectID		    84
 		    Type		    "edit"
 		    Name		    "h_ext"
 		    Prompt		    "External heat transfer coefficient [W/K m^2]"
 		    Value		    "TC_ENGINE.exhMan.h_ext"
 		  }
 		  Object {
-		    $ObjectID		    84
+		    $ObjectID		    85
 		    Type		    "edit"
 		    Name		    "R"
 		    Prompt		    "Gas constant [J/kg K]"
 		    Value		    "TC_ENGINE.gasProp.exh.R"
 		  }
 		  Object {
-		    $ObjectID		    85
+		    $ObjectID		    86
 		    Type		    "edit"
 		    Name		    "gamma"
 		    Prompt		    "Ratio of specific heats [-]"
 		    Value		    "TC_ENGINE.gasProp.exh.kappa"
 		  }
 		  Object {
-		    $ObjectID		    86
+		    $ObjectID		    87
 		    Type		    "edit"
 		    Name		    "mu"
 		    Prompt		    "Dynamic viscosity (mu) [kg/m s]"
 		    Value		    "TC_ENGINE.exhMan.exh_mu"
 		  }
 		  Object {
-		    $ObjectID		    87
+		    $ObjectID		    88
 		    Type		    "edit"
 		    Name		    "lambda"
 		    Prompt		    "Thermal conductivity [W/m K]"
@@ -11845,7 +11855,7 @@ Model {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    88
+	    $ObjectID		    89
 	    $ClassName		    "Simulink.Mask"
 	    Type		    "Control volume"
 	    Description		    "Model of a control volume i.e. a receiver of constant volume.\nTakes mass and energy balance in"
@@ -11856,35 +11866,35 @@ Model {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      5
 	      Object {
-		$ObjectID		89
+		$ObjectID		90
 		Type			"edit"
 		Name			"V"
 		Prompt			"Volume [m^3]"
 		Value			"TC_ENGINE.controlVolumes.exhaustManifold.V"
 	      }
 	      Object {
-		$ObjectID		90
+		$ObjectID		91
 		Type			"edit"
 		Name			"T_init"
 		Prompt			"Initial temperature [K]"
 		Value			"900"
 	      }
 	      Object {
-		$ObjectID		91
+		$ObjectID		92
 		Type			"edit"
 		Name			"p_init"
 		Prompt			"Initial pressure [Pa]"
 		Value			"105e3"
 	      }
 	      Object {
-		$ObjectID		92
+		$ObjectID		93
 		Type			"edit"
 		Name			"R"
 		Prompt			"Gas constant [J/kg K]"
 		Value			"TC_ENGINE.gasProp.exh.R"
 	      }
 	      Object {
-		$ObjectID		93
+		$ObjectID		94
 		Type			"edit"
 		Name			"gamma"
 		Prompt			"Ratio of specific heats (gamma) [-]"
@@ -12423,7 +12433,7 @@ Model {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    94
+	    $ObjectID		    95
 	    $ClassName		    "Simulink.Mask"
 	    Type		    "Restriction Incompressible Flow"
 	    Description		    "Flow restriction for incompressible flows.\n\nThe flow is modelled using the following function"
@@ -12436,14 +12446,14 @@ Model {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      2
 	      Object {
-		$ObjectID		95
+		$ObjectID		96
 		Type			"edit"
 		Name			"H"
 		Prompt			"Flow resistance"
 		Value			"TC_ENGINE.exhaustSystem.H"
 	      }
 	      Object {
-		$ObjectID		96
+		$ObjectID		97
 		Type			"edit"
 		Name			"p_lin"
 		Prompt			"Linearization limit [Pa]"
@@ -13565,7 +13575,7 @@ Model {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    97
+	    $ObjectID		    98
 	    $ClassName		    "Simulink.Mask"
 	    Type		    "Inertia with friction"
 	    Description		    "Rotating inertia, with inputs speed. There is also a friction term which might help stabilize t"
@@ -13578,35 +13588,35 @@ Model {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      5
 	      Object {
-		$ObjectID		98
+		$ObjectID		99
 		Type			"edit"
 		Name			"Theta"
 		Prompt			"Inertia [kg m^2]"
 		Value			"TC_ENGINE.turbo.inertia_tc"
 	      }
 	      Object {
-		$ObjectID		99
+		$ObjectID		100
 		Type			"edit"
 		Name			"w_friction"
 		Prompt			"Friction coefficient"
 		Value			"TC_ENGINE.turbo.damp_tc"
 	      }
 	      Object {
-		$ObjectID		100
+		$ObjectID		101
 		Type			"edit"
 		Name			"w_IC"
 		Prompt			"Initial rotational speed [rad/s]"
 		Value			"TC_ENGINE.turbo.omega_init"
 	      }
 	      Object {
-		$ObjectID		101
+		$ObjectID		102
 		Type			"edit"
 		Name			"w_upper"
 		Prompt			"Upper speed limit [rad/s]"
 		Value			"TC_ENGINE.turbo.omega_max"
 	      }
 	      Object {
-		$ObjectID		102
+		$ObjectID		103
 		Type			"edit"
 		Name			"w_lower"
 		Prompt			"Lower speed limit [rad/s]"
@@ -13791,7 +13801,7 @@ Model {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    103
+	    $ObjectID		    104
 	    $ClassName		    "Simulink.Mask"
 	    Type		    "Control volume"
 	    Description		    "Model of a control volume i.e. a receiver of constant volume.\nTakes mass and energy balance in"
@@ -13802,35 +13812,35 @@ Model {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      5
 	      Object {
-		$ObjectID		104
+		$ObjectID		105
 		Type			"edit"
 		Name			"V"
 		Prompt			"Volume [m^3]"
 		Value			"TC_ENGINE.controlVolumes.intakeManifold.V"
 	      }
 	      Object {
-		$ObjectID		105
+		$ObjectID		106
 		Type			"edit"
 		Name			"T_init"
 		Prompt			"Initial temperature [K]"
 		Value			"293"
 	      }
 	      Object {
-		$ObjectID		106
+		$ObjectID		107
 		Type			"edit"
 		Name			"p_init"
 		Prompt			"Initial pressure [Pa]"
 		Value			"101e3"
 	      }
 	      Object {
-		$ObjectID		107
+		$ObjectID		108
 		Type			"edit"
 		Name			"R"
 		Prompt			"Gas constant [J/kg K]"
 		Value			"TC_ENGINE.gasProp.air.R"
 	      }
 	      Object {
-		$ObjectID		108
+		$ObjectID		109
 		Type			"edit"
 		Name			"gamma"
 		Prompt			"Ratio of specific heats (gamma) [-]"
@@ -14371,7 +14381,7 @@ Model {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    109
+	    $ObjectID		    110
 	    $ClassName		    "Simulink.Mask"
 	    Type		    "Control volume"
 	    Description		    "Model of a control volume i.e. a receiver of constant volume.\nTakes mass and energy balance in"
@@ -14382,35 +14392,35 @@ Model {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      5
 	      Object {
-		$ObjectID		110
+		$ObjectID		111
 		Type			"edit"
 		Name			"V"
 		Prompt			"Volume [m^3]"
 		Value			"TC_ENGINE.controlVolumes.interCooler.V"
 	      }
 	      Object {
-		$ObjectID		111
+		$ObjectID		112
 		Type			"edit"
 		Name			"T_init"
 		Prompt			"Initial temperature [K]"
 		Value			"293"
 	      }
 	      Object {
-		$ObjectID		112
+		$ObjectID		113
 		Type			"edit"
 		Name			"p_init"
 		Prompt			"Initial pressure [Pa]"
 		Value			"101e3"
 	      }
 	      Object {
-		$ObjectID		113
+		$ObjectID		114
 		Type			"edit"
 		Name			"R"
 		Prompt			"Gas constant [J/kg K]"
 		Value			"TC_ENGINE.gasProp.air.R"
 	      }
 	      Object {
-		$ObjectID		114
+		$ObjectID		115
 		Type			"edit"
 		Name			"gamma"
 		Prompt			"Ratio of specific heats (gamma) [-]"
@@ -15020,7 +15030,7 @@ Model {
 	      RequestExecContextInheritance off
 	      Object {
 		$PropName		"MaskObject"
-		$ObjectID		115
+		$ObjectID		116
 		$ClassName		"Simulink.Mask"
 		Type			"Intercooler temperature"
 		Description		"Intercooler temperature drop model using intercooler\nefficiency, epsilon.\n   T_out=T_in-epsilon*(T_i"
@@ -15180,7 +15190,7 @@ Model {
 	      RequestExecContextInheritance off
 	      Object {
 		$PropName		"MaskObject"
-		$ObjectID		116
+		$ObjectID		117
 		$ClassName		"Simulink.Mask"
 		Type			"Restriction Incompressible Flow"
 		Description		"Flow restriction for incompressible flows.\n\nThe flow is modelled using the following function for th"
@@ -15192,14 +15202,14 @@ Model {
 		  Type			  "Simulink.MaskParameter"
 		  Dimension		  2
 		  Object {
-		    $ObjectID		    117
+		    $ObjectID		    118
 		    Type		    "edit"
 		    Name		    "H"
 		    Prompt		    "Flow resistance"
 		    Value		    "TC_ENGINE.interCooler.H"
 		  }
 		  Object {
-		    $ObjectID		    118
+		    $ObjectID		    119
 		    Type		    "edit"
 		    Name		    "p_lin"
 		    Prompt		    "Linearization limit [Pa]"
@@ -16099,7 +16109,7 @@ Model {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    119
+	    $ObjectID		    120
 	    $ClassName		    "Simulink.Mask"
 	    Type		    "Restriction - Compressible Flow"
 	    Description		    "The flow is modelled using isentropic expansion in a nozzle with the assumption that there is n"
@@ -16111,14 +16121,14 @@ Model {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      2
 	      Object {
-		$ObjectID		120
+		$ObjectID		121
 		Type			"edit"
 		Name			"K"
 		Prompt			"Ratio of specific heats"
 		Value			"TC_ENGINE.throttle.gamma"
 	      }
 	      Object {
-		$ObjectID		121
+		$ObjectID		122
 		Type			"edit"
 		Name			"R"
 		Prompt			"Ideal gas constant [J/kg/ K]"
@@ -16817,7 +16827,7 @@ Model {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    122
+	    $ObjectID		    123
 	    $ClassName		    "Simulink.Mask"
 	    Type		    "Control volume"
 	    Description		    "Model of a control volume i.e. a receiver of constant volume.\nTakes mass and energy balance in"
@@ -16828,35 +16838,35 @@ Model {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      5
 	      Object {
-		$ObjectID		123
+		$ObjectID		124
 		Type			"edit"
 		Name			"V"
 		Prompt			"Volume [m^3]"
 		Value			"TC_ENGINE.controlVolumes.exhaustSystem.V"
 	      }
 	      Object {
-		$ObjectID		124
+		$ObjectID		125
 		Type			"edit"
 		Name			"T_init"
 		Prompt			"Initial temperature [K]"
 		Value			"293"
 	      }
 	      Object {
-		$ObjectID		125
+		$ObjectID		126
 		Type			"edit"
 		Name			"p_init"
 		Prompt			"Initial pressure [Pa]"
 		Value			"101e3"
 	      }
 	      Object {
-		$ObjectID		126
+		$ObjectID		127
 		Type			"edit"
 		Name			"R"
 		Prompt			"Gas constant [J/kg K]"
 		Value			"TC_ENGINE.gasProp.exh.R"
 	      }
 	      Object {
-		$ObjectID		127
+		$ObjectID		128
 		Type			"edit"
 		Name			"gamma"
 		Prompt			"Ratio of specific heats (gamma) [-]"
@@ -17510,21 +17520,21 @@ Model {
 	      RequestExecContextInheritance off
 	      Object {
 		$PropName		"MaskObject"
-		$ObjectID		128
+		$ObjectID		129
 		$ClassName		"Simulink.Mask"
 		Type			"Adiabatic mixer"
 		Array {
 		  Type			  "Simulink.MaskParameter"
 		  Dimension		  2
 		  Object {
-		    $ObjectID		    129
+		    $ObjectID		    130
 		    Type		    "edit"
 		    Name		    "c_p1"
 		    Prompt		    "Specific heats flow 1 [J/kg K]"
 		    Value		    "TC_ENGINE.gasProp.exh.cp"
 		  }
 		  Object {
-		    $ObjectID		    130
+		    $ObjectID		    131
 		    Type		    "edit"
 		    Name		    "c_p2"
 		    Prompt		    "Specific heats flow 2 [J/kg K]"
@@ -17946,13 +17956,13 @@ Model {
 		  RequestExecContextInheritance	off
 		  Object {
 		    $PropName		    "MaskObject"
-		    $ObjectID		    131
+		    $ObjectID		    132
 		    $ClassName		    "Simulink.Mask"
 		    Description		    "Calculates temperature of the gas flowing out of the turbine:\n\nT_t = T_em*(1-eta_t*(1-pow(pi"
 		    "_t,(kappa_eg-1)/kappa_eg))"
 		    Object {
 		    $PropName		    "Parameters"
-		    $ObjectID		    132
+		    $ObjectID		    133
 		    $ClassName		    "Simulink.MaskParameter"
 		    Type		    "edit"
 		    Name		    "gamma"
@@ -18188,14 +18198,14 @@ Model {
 		  RequestExecContextInheritance	off
 		  Object {
 		    $PropName		    "MaskObject"
-		    $ObjectID		    133
+		    $ObjectID		    134
 		    $ClassName		    "Simulink.Mask"
 		    Type		    "Turbine Torque"
 		    Description		    "Calculates the torque produced by the turbine:\n\nT_q = mFlow_t*c_p*(T_in-T_out)/omega_t"
 		    Help		    "Enter the c_p value for the exhaust gas, and the block will\ncalculate the work that is produced."
 		    Object {
 		    $PropName		    "Parameters"
-		    $ObjectID		    134
+		    $ObjectID		    135
 		    $ClassName		    "Simulink.MaskParameter"
 		    Type		    "edit"
 		    Name		    "c_p"
@@ -18404,7 +18414,7 @@ Model {
 		  RequestExecContextInheritance	off
 		  Object {
 		    $PropName		    "MaskObject"
-		    $ObjectID		    135
+		    $ObjectID		    136
 		    $ClassName		    "Simulink.Mask"
 		    Description		    "Turbine efficiency calculation:\neta_t = k_3*(1-pow((BSR-k4)/k4, 2))\n\nBSR = D_t/2*w_tc/sqrt("
 		    "2*cp_eg*T_em*(1-pow(1/pi_t,(1-kappa_eg)/kappa_eg)))"
@@ -18412,42 +18422,42 @@ Model {
 		    Type		    "Simulink.MaskParameter"
 		    Dimension		    6
 		    Object {
-		    $ObjectID		    136
+		    $ObjectID		    137
 		    Type		    "edit"
 		    Name		    "Dt"
 		    Prompt		    "Turbine diameter [m]"
 		    Value		    "TC_ENGINE.turbine.D"
 		    }
 		    Object {
-		    $ObjectID		    137
+		    $ObjectID		    138
 		    Type		    "edit"
 		    Name		    "cp_eg"
 		    Prompt		    "cp_eg"
 		    Value		    "TC_ENGINE.gasProp.exh.cp"
 		    }
 		    Object {
-		    $ObjectID		    138
+		    $ObjectID		    139
 		    Type		    "edit"
 		    Name		    "kappa_eg"
 		    Prompt		    "Ratio of specifc heats (kappa_eg)"
 		    Value		    "TC_ENGINE.gasProp.exh.kappa"
 		    }
 		    Object {
-		    $ObjectID		    139
+		    $ObjectID		    140
 		    Type		    "edit"
 		    Name		    "k3"
 		    Prompt		    "Max turbine efficiency"
 		    Value		    "TC_ENGINE.turbine.efficiency.fit.maxEfficiency"
 		    }
 		    Object {
-		    $ObjectID		    140
+		    $ObjectID		    141
 		    Type		    "edit"
 		    Name		    "k4"
 		    Prompt		    "BSR for maximal turbine efficiency"
 		    Value		    "TC_ENGINE.turbine.efficiency.fit.maxEfficiencyBSR"
 		    }
 		    Object {
-		    $ObjectID		    141
+		    $ObjectID		    142
 		    Type		    "edit"
 		    Name		    "turbMinEff"
 		    Prompt		    "Minimum turbine efficiency"
@@ -19038,21 +19048,21 @@ Model {
 		  RequestExecContextInheritance	off
 		  Object {
 		    $PropName		    "MaskObject"
-		    $ObjectID		    142
+		    $ObjectID		    143
 		    $ClassName		    "Simulink.Mask"
 		    Description		    "Turbine mass flow, Wt = sqrt(T_em)/p_em*k_1*sqrt(1-pos(PI_t,k_2))"
 		    Array {
 		    Type		    "Simulink.MaskParameter"
 		    Dimension		    2
 		    Object {
-		    $ObjectID		    143
+		    $ObjectID		    144
 		    Type		    "edit"
 		    Name		    "k1"
 		    Prompt		    "k1"
 		    Value		    "TC_ENGINE.turbine.massFlow.fit.k1"
 		    }
 		    Object {
-		    $ObjectID		    144
+		    $ObjectID		    145
 		    Type		    "edit"
 		    Name		    "k2"
 		    Prompt		    "k2"
@@ -19510,7 +19520,7 @@ Model {
 	      RequestExecContextInheritance off
 	      Object {
 		$PropName		"MaskObject"
-		$ObjectID		145
+		$ObjectID		146
 		$ClassName		"Simulink.Mask"
 		Type			"Restriction - Compressible Flow"
 		Description		"The flow is modelled using isentropic expansion in a nozzle with the assumption that there is no press"
@@ -19522,14 +19532,14 @@ Model {
 		  Type			  "Simulink.MaskParameter"
 		  Dimension		  2
 		  Object {
-		    $ObjectID		    146
+		    $ObjectID		    147
 		    Type		    "edit"
 		    Name		    "K"
 		    Prompt		    "Ratio of specific heats"
 		    Value		    "TC_ENGINE.gasProp.exh.kappa"
 		  }
 		  Object {
-		    $ObjectID		    147
+		    $ObjectID		    148
 		    Type		    "edit"
 		    Name		    "R"
 		    Prompt		    "Ideal gas constant [J/kg/ K]"
@@ -20354,11 +20364,11 @@ Model {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    148
+	    $ObjectID		    149
 	    $ClassName		    "Simulink.Mask"
 	    Object {
 	      $PropName		      "Parameters"
-	      $ObjectID		      149
+	      $ObjectID		      150
 	      $ClassName	      "Simulink.MaskParameter"
 	      Type		      "edit"
 	      Name		      "K"
@@ -20771,11 +20781,11 @@ Model {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    150
+	    $ObjectID		    151
 	    $ClassName		    "Simulink.Mask"
 	    Object {
 	      $PropName		      "Parameters"
-	      $ObjectID		      151
+	      $ObjectID		      152
 	      $ClassName	      "Simulink.MaskParameter"
 	      Type		      "edit"
 	      Name		      "K"
@@ -21132,11 +21142,11 @@ Model {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    152
+	    $ObjectID		    153
 	    $ClassName		    "Simulink.Mask"
 	    Object {
 	      $PropName		      "Parameters"
-	      $ObjectID		      153
+	      $ObjectID		      154
 	      $ClassName	      "Simulink.MaskParameter"
 	      Type		      "edit"
 	      Name		      "K"
@@ -21532,11 +21542,11 @@ Model {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    154
+	    $ObjectID		    155
 	    $ClassName		    "Simulink.Mask"
 	    Object {
 	      $PropName		      "Parameters"
-	      $ObjectID		      155
+	      $ObjectID		      156
 	      $ClassName	      "Simulink.MaskParameter"
 	      Type		      "edit"
 	      Name		      "K"
@@ -23786,6 +23796,95 @@ Model {
       }
     }
     Block {
+      BlockType		      Scope
+      Name		      "Sensor Measurements"
+      SID		      "4661"
+      Ports		      []
+      Position		      [1215, 319, 1245, 351]
+      ZOrder		      709
+      List {
+	ListType		IOSignalStrings
+	set0ParseKeys		"43"
+	set0Sigs		"Generic Single-Turbocharged Engine/From1:o1"
+	set1ParseKeys		"43"
+	set1Sigs		"Generic Single-Turbocharged Engine/From2:o1"
+	set2ParseKeys		"43"
+	set2Sigs		"Generic Single-Turbocharged Engine/From3:o1"
+	set3ParseKeys		"43"
+	set3Sigs		"Generic Single-Turbocharged Engine/From4:o1"
+	set4ParseKeys		"43"
+	set4Sigs		"Generic Single-Turbocharged Engine/From5:o1"
+	set5ParseKeys		"43"
+	set5Sigs		"Generic Single-Turbocharged Engine/From6:o1"
+	set6ParseKeys		"43"
+	set6Sigs		"Generic Single-Turbocharged Engine/From8:o1"
+	set7ParseKeys		"42"
+	set7Sigs		"Generic Single-Turbocharged Engine/From:o1"
+      }
+      ScopeSpecificationString "Simulink.scopes.TimeScopeBlockCfg('CurrentConfiguration', extmgr.ConfigurationSet(extm"
+      "gr.Configuration('Core','General UI',true),extmgr.Configuration('Core','Source UI',true),extmgr.Configuration('S"
+      "ources','WiredSimulink',true,'DataLoggingVariableName','ScopeData1'),extmgr.Configuration('Visuals','Time Domain"
+      "',true,'SerializedDisplays',{struct('MinYLimReal','-10.00000','MaxYLimReal','10.00000','YLabelReal','','MinYLimM"
+      "ag','0.00000','MaxYLimMag','10.00000','LegendVisibility','Off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'A"
+      "xesColor',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0.06"
+      "66666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.8"
+      "31372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215"
+      "686 0.650980392156863],'Title','%<SignalLabel>','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'NumLi"
+      "nes',0,'LineNames',{{[]}},'ShowContent',true,'Placement',1),struct('MinYLimReal','-10.00000','MaxYLimReal','10.0"
+      "0000','YLabelReal','','MinYLimMag','0.00000','MaxYLimMag','10.00000','LegendVisibility','Off','XGrid',true,'YGri"
+      "d',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0.68627450"
+      "9803922],'ColorOrder',[1 1 0.0666666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078"
+      "431372549;0.392156862745098 0.831372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235"
+      "294117647 1 1;1 0.0745098039215686 0.650980392156863],'Title','%<SignalLabel>','LinePropertiesCache',{{}},'UserD"
+      "efinedChannelNames',{{}},'NumLines',0,'LineNames',{{[]}},'ShowContent',true,'Placement',2),struct('MinYLimReal',"
+      "'-10.00000','MaxYLimReal','10.00000','YLabelReal','','MinYLimMag','0.00000','MaxYLimMag','10.00000','LegendVisib"
+      "ility','Off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',[0.6862745098039"
+      "22 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0.0666666666666667;0.0745098039215686 0.62352941176470"
+      "6 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0.0745098039215686;0.71764705882352"
+      "9 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],'Title','%<SignalLabel>','L"
+      "inePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'NumLines',0,'LineNames',{{[]}},'ShowContent',true,'Plac"
+      "ement',3),struct('MinYLimReal','-10.00000','MaxYLimReal','10.00000','YLabelReal','','MinYLimMag','0.00000','MaxY"
+      "LimMag','10.00000','LegendVisibility','Off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'"
+      "AxesTickColor',[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0.0666666666666667;0.07"
+      "45098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0.07"
+      "45098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.6509803921568"
+      "63],'Title','%<SignalLabel>','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'NumLines',0,'LineNames',"
+      "{{[]}},'ShowContent',true,'Placement',4),struct('MinYLimReal','-10.00000','MaxYLimReal','10.00000','YLabelReal',"
+      "'','MinYLimMag','0.00000','MaxYLimMag','10.00000','LegendVisibility','Off','XGrid',true,'YGrid',true,'PlotMagPha"
+      "se',false,'AxesColor',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrde"
+      "r',[1 1 0.0666666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.3921568"
+      "62745098 0.831372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0"
+      "745098039215686 0.650980392156863],'Title','%<SignalLabel>','LinePropertiesCache',{{}},'UserDefinedChannelNames'"
+      ",{{}},'NumLines',0,'LineNames',{{[]}},'ShowContent',true,'Placement',5),struct('MinYLimReal','-10.00000','MaxYLi"
+      "mReal','10.00000','YLabelReal','','MinYLimMag','0.00000','MaxYLimMag','10.00000','LegendVisibility','Off','XGrid"
+      "',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',[0.686274509803922 0.68627450980392"
+      "2 0.686274509803922],'ColorOrder',[1 1 0.0666666666666667;0.0745098039215686 0.623529411764706 1;1 0.41176470588"
+      "2353 0.16078431372549;0.392156862745098 0.831372549019608 0.0745098039215686;0.717647058823529 0.274509803921569"
+      " 1;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],'Title','%<SignalLabel>','LinePropertiesCache'"
+      ",{{}},'UserDefinedChannelNames',{{}},'NumLines',0,'LineNames',{{[]}},'ShowContent',true,'Placement',6),struct('M"
+      "inYLimReal','-10.00000','MaxYLimReal','10.00000','YLabelReal','','MinYLimMag','0.00000','MaxYLimMag','10.00000',"
+      "'LegendVisibility','Off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',[0.6"
+      "86274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0.0666666666666667;0.0745098039215686 0.62"
+      "3529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0.0745098039215686;0.71"
+      "7647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],'Title','%<Sign"
+      "alLabel>','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'NumLines',0,'LineNames',{{[]}},'ShowContent"
+      "',true,'Placement',7),struct('MinYLimReal','-10.00000','MaxYLimReal','10.00000','YLabelReal','','MinYLimMag','0."
+      "00000','MaxYLimMag','10.00000','LegendVisibility','Off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColo"
+      "r',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0.066666666"
+      "6666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.83137254"
+      "9019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.6"
+      "50980392156863],'Title','%<SignalLabel>','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'NumLines',0,"
+      "'LineNames',{{[]}},'ShowContent',true,'Placement',8)},'DisplayPropertyDefaults',struct('YLabelReal','','AxesColo"
+      "r',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[0.0745098039215"
+      "686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;1 1 0.0666666666666667;0.717647058823529 0.27450980"
+      "3921569 1;0.392156862745098 0.831372549019608 0.0745098039215686;0.0588235294117647 1 1;1 0.0745098039215686 0.6"
+      "50980392156863]),'DisplayLayoutDimensions',[2 4]),extmgr.Configuration('Tools','Plot Navigation',true,'Autoscale"
+      "Mode','Auto','PreviousZoomMode','ZoomY'),extmgr.Configuration('Tools','Measurements',true,'Version','2018b')),'V"
+      "ersion','2018b','Position',[482 59 948 416],'LockDynamicWidgets',-1,'VisibleAtModelOpen','on')"
+      NumInputPorts	      "1"
+      Floating		      on
+    }
+    Block {
       BlockType		      Constant
       Name		      "T_amb"
       SID		      "1248"
@@ -23828,6 +23927,46 @@ Model {
       MaxDataPoints	      "inf"
       SaveFormat	      "Timeseries"
       SampleTime	      "-1"
+    }
+    Block {
+      BlockType		      Scope
+      Name		      "Torque Measurements"
+      SID		      "4660"
+      Ports		      []
+      Position		      [1215, 379, 1245, 411]
+      ZOrder		      708
+      List {
+	ListType		IOSignalStrings
+	set0ParseKeys		"20,43"
+	set0Sigs		"Ref Engine Torque:o1Generic Single-Turbocharged Engine/From7:o1"
+      }
+      ScopeSpecificationString "Simulink.scopes.TimeScopeBlockCfg('CurrentConfiguration', extmgr.ConfigurationSet(extm"
+      "gr.Configuration('Core','General UI',true),extmgr.Configuration('Core','Source UI',true),extmgr.Configuration('S"
+      "ources','WiredSimulink',true),extmgr.Configuration('Visuals','Time Domain',true,'SerializedDisplays',{struct('Mi"
+      "nYLimReal','0','MaxYLimReal','350','YLabelReal','','MinYLimMag','0.00000','MaxYLimMag','10.00000','LegendVisibil"
+      "ity','On','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',[0.686274509803922 "
+      "0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0.0666666666666667;0.0745098039215686 0.623529411764706 1"
+      ";1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0.0745098039215686;0.717647058823529 0"
+      ".274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],'Title','%<SignalLabel>','Line"
+      "PropertiesCache',{{struct('Color',[1 1 0.0666666666666667],'LineStyle','-','LineWidth',0.75,'Marker','none','Vis"
+      "ible','on'),struct('Color',[0.0745098039215686 0.623529411764706 1],'LineStyle','-','LineWidth',0.75,'Marker','n"
+      "one','Visible','on'),struct('Color',[1 0.411764705882353 0.16078431372549],'LineStyle','-','LineWidth',0.75,'Mar"
+      "ker','none','Visible','on'),struct('Color',[0.392156862745098 0.831372549019608 0.0745098039215686],'LineStyle',"
+      "'-','LineWidth',0.75,'Marker','none','Visible','on'),struct('Color',[0.717647058823529 0.274509803921569 1],'Lin"
+      "eStyle','-','LineWidth',0.75,'Marker','none','Visible','on'),struct('Color',[0.0588235294117647 1 1],'LineStyle'"
+      ",'-','LineWidth',0.75,'Marker','none','Visible','on'),struct('Color',[1 0.0745098039215686 0.650980392156863],'L"
+      "ineStyle','-','LineWidth',0.75,'Marker','none','Visible','on')}},'UserDefinedChannelNames',{{}},'NumLines',0,'Li"
+      "neNames',{{[]}},'ShowContent',true,'Placement',1)},'DisplayPropertyDefaults',struct('MinYLimReal','0','MaxYLimRe"
+      "al','350','YLabelReal','','MinYLimMag','0.00000','MaxYLimMag','10.00000','LegendVisibility','On','XGrid',true,'Y"
+      "Grid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0.68627"
+      "4509803922],'ColorOrder',[0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;1 1 0.0666"
+      "666666666667;0.717647058823529 0.274509803921569 1;0.392156862745098 0.831372549019608 0.0745098039215686;0.0588"
+      "235294117647 1 1;1 0.0745098039215686 0.650980392156863])),extmgr.Configuration('Tools','Plot Navigation',true,'"
+      "PreviousZoomMode','ZoomY','UpdatesBeforeAutoscale','1','OnceAtStop',false),extmgr.Configuration('Tools','Measure"
+      "ments',true,'Version','2018b')),'Version','2018b','Position',[480 515 949 341],'LockDynamicWidgets',-1,'VisibleA"
+      "tModelOpen','on')"
+      NumInputPorts	      "1"
+      Floating		      on
     }
     Block {
       BlockType		      Constant

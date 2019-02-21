@@ -59,8 +59,8 @@ function Simulate_Callback(hObject, eventdata, handles)
 % Clear and reset plots and initialisations
 clc;
 Log = [];
-subplot( 1,1,1, 'Parent', handles.fault_plot ); cla reset;
 subplot( 1,1,1, 'Parent', handles.tq_plot ); cla reset;
+subplot( 1,1,1, 'Parent', handles.fault_plot ); cla reset;
 subplot( 1,1,1, 'Parent', handles.res_plot ); cla reset;
 evalin( 'base','clear all' );
 tic;

@@ -16,6 +16,7 @@ Log = PrintLog( Log, 'Simulating Residuals................. ', 1, handles.output
 load_system( 'ResidualsGen' );
 sim( 'ResidualsGen', max( T_z ) );
 bdclose 'ResidualsGen' ;
+Log = PrintLog( Log, ' [ DONE ]', 3, handles.outputLog );
 
 %-------------------------------------------------------------------------%
 % Main codes here
@@ -30,9 +31,8 @@ defTime = Residuals.Time;
 defRes = [defTime defRes];
 
 assignin( 'base', 'defRes', defRes );
-%-------------------------------------------------------------------------%
 
-Log = PrintLog( Log, ' [ DONE ]', 3, handles.outputLog );
+%-------------------------------------------------------------------------%
 Log = PrintLog( Log, 'Residuals Generated.', 1, handles.outputLog );
 Log = PrintLog( Log, ' ', 1, handles.outputLog );
 

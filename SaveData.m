@@ -13,6 +13,7 @@
 %-------------------------------------------------------------------------%
 %              Create folder to store simulation results
 %-------------------------------------------------------------------------%
+Log = PrintLog( Log, 'Saving data and plots................ ', 1, handles.outputLog );
 file   = [dCycle '_' faultSig.Name{fault} '_' strrep( date,'-','' )];
 folder = sprintf( 'Results/%s',file );
 if not( exist( folder,'dir' ) )
@@ -42,6 +43,7 @@ end
 %-------------------------------------------------------------------------%
 %                        Save Log into text file
 %-------------------------------------------------------------------------%
+Log = PrintLog( Log, ' [ DONE ]', 3, handles.outputLog );
 Log = PrintLog( Log, sprintf( 'End of sequence.' ), 2, handles.outputLog );
 Log = PrintLog( Log, sprintf( 'Total simulation time: %.1f seconds.', toc ), 2, handles.outputLog );
 Log = PrintLog( Log, sprintf( ' ' ), 2, handles.outputLog );
