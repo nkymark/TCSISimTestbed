@@ -1,5 +1,13 @@
 # SimEngineBenchmark
 
+## Table of Contents
+  1. [Introduction](https://github.com/nkymark/SimEngineBenchmark#introduction)
+  2. [Modelling The Engine](https://github.com/nkymark/SimEngineBenchmark#modelling-the-engine)
+  3. [Fault Scenarios](https://github.com/nkymark/SimEngineBenchmark#fault-scenarios)
+  4. [Residuals Generation](https://github.com/nkymark/SimEngineBenchmark#residuals-generation)
+  4. [Simulation Environment](https://github.com/nkymark/SimEngineBenchmark#the-simulation-environment)
+
+
 ## Introduction
 Research on fault diagnosis and fault isolation on highly nonlinear dynamic systems such as the engine of a vehicle has garnered huge interest in recent years, especially with the automotive industry heading towards autonomous operations and big data. This simulation benchmark model of a single turbocharged petrol engine engine system is designed and developed for testing and evaluation of residuals generation and fault diagnosis methods. 
 
@@ -19,8 +27,11 @@ The simulation environment uses a 1.8L 4-cylinder single turbocharged spark igni
 The new European standard Worldwide harmonised Light vehicle Test Procedure (WLTP) driving cycle is used to verify the performance of the boost controller.
 
 
+## Residuals Generation
+
+
 ## Fault Scenarios
-The benchmark model considers sensor, actuator, and variable faults in different parts of the engine system. There are 11 faults; 6 variable faults (*fp_af*, *fC_vol*, *fW_af*, *fW_th*, *fW_c*, *fW_ic*), 1 actuator measurement fault (*fx_th*), and 4 sensor measurement faults (*fyW_af*, *fyp_im*, *fyp_ic*, *fyT_ic*).
+The benchmark model considers sensor, actuator, and variable faults in different parts of the engine system. There are 11 faults; 6 variable faults (``fp_af``, ``fC_vol``, ``fW_af``, ``fW_th``, ``fW_c``, ``fW_ic``), 1 actuator measurement fault (``fx_th``), and 4 sensor measurement faults (``fyW_af``, ``fyp_im``, ``fyp_ic``, ``fyT_ic``).
 
 The faults are of different degrees of severity. Some faults are less severe and the engine can be reconfigured to a reduced performance operation mode to accommodate the faults until the vehicle is sent into the workshop for repair and maintenance. Some other faults are more severe that if not detected and isolated promptly, might cause permanent and serious damages to the engine system, which in turn will endanger the occupants in the vehicle as well as other road users.
 
@@ -35,10 +46,10 @@ In the top right section of the GUI, a block diagram representation of the engin
 The results obtained from the simulation are displayed in the bottom right section of the GUI. The results displayed are the reference vs actual engine torque, and the normalised plot of the fault induced. A ‘Simulation Log’ is also available in the bottom left section of the GUI to show a summary of the simulation settings and to provide an update in real-time on the progress of the simulation. The plots and the ‘Simulation Log’ are automatically saved into the folder ``‘/Results/DrivingCycle_FaultMode_Date’`` that is located in the same directory as the simulation environment. A MATLAB MAT-file containing key variables and data from the simulation is also saved.
 
 The simulation kit contains the following key files:
-- ``main.m`` — Main execution file. Run this file to start the GUI.
-- ``Engine.mdl`` — Simulink model of the closed-loop nonlinear engine system. Open the model from the GUI using either the ‘Boost Controller (Simulink)’ or ‘Engine System (Simulink)’ blocks.
-- ``GenerateResiduals.m`` — Codes for the residuals generation algorithm to be placed here. Open the file from the GUI using the ‘Residuals Generator Design (M-file)’ button.
-- ``ResidualsGen.mdl`` — Simulink model of the residuals generator. The model is called and run from ``GenerateResiduals.m``. The default residuals generated are also filtered and normalised, and added with signal noise. Open the model from the GUI using the ‘Residuals Generator (Simulink)’ block. Replace the ‘Residuals Generator’ in the Simulink model as desired to accommodate other methods for residuals generation.
-- ``RunFI.m`` — Algorithm for fault diagnosis to be placed here. Open the file from the GUI using the ‘Fault Isolation Scheme Design (M-file)’ block.
+- ``main.m`` - Main execution file. Run this file to start the GUI.
+- ``Engine.mdl`` - Simulink model of the closed-loop nonlinear engine system. Open the model from the GUI using either the ‘Boost Controller (Simulink)’ or ‘Engine System (Simulink)’ blocks.
+- ``GenerateResiduals.m`` - Codes for the residuals generation algorithm to be placed here. Open the file from the GUI using the ‘Residuals Generator Design (M-file)’ button.
+- ``ResidualsGen.mdl`` - Simulink model of the residuals generator. The model is called and run from ``GenerateResiduals.m``. The default residuals generated are also filtered and normalised, and added with signal noise. Open the model from the GUI using the ‘Residuals Generator (Simulink)’ block. Replace the ‘Residuals Generator’ in the Simulink model as desired to accommodate other methods for residuals generation.
+- ``RunFI.m`` - Algorithm for fault diagnosis to be placed here. Open the file from the GUI using the ‘Fault Isolation Scheme Design (M-file)’ block.
 
 
