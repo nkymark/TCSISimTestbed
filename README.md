@@ -23,3 +23,10 @@ The new European standard Worldwide harmonised Light vehicle Test Procedure (WLT
 The benchmark model considers sensor, actuator, and variable faults in different parts of the engine system. There are 11 faults; 6 variable faults (*fp_af*, *fC_vol*, *fW_af*, *fW_th*, *fW_c*, *fW_ic*), 1 actuator measurement fault (*fx_th*), and 4 sensor measurement faults (*fyW_af*, *fyp_im*, *fyp_ic*, *fyT_ic*).
 
 The faults are of different degrees of severity. Some faults are less severe and the engine can be reconfigured to a reduced performance operation mode to accommodate the faults until the vehicle is sent into the workshop for repair and maintenance. Some other faults are more severe that if not detected and isolated promptly, might cause permanent and serious damages to the engine system, which in turn will endanger the occupants in the vehicle as well as other road users.
+
+
+## The Simulation Environment
+The figure below shows the GUI of the benchmark model in MATLAB. Through this interface, the user can set the preferences for simulation settings, design and test their residuals generation and fault diagnosis schemes, as well as view simulation results.
+<img src"/Figures/GUI.png">
+
+
