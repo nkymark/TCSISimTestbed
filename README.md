@@ -5,7 +5,7 @@
   2. [Modelling The Engine](https://github.com/nkymark/SimEngineBenchmark#modelling-the-engine)
   3. [Fault Scenarios](https://github.com/nkymark/SimEngineBenchmark#fault-scenarios)
   4. [Residuals Generation](https://github.com/nkymark/SimEngineBenchmark#residuals-generation)
-  4. [Simulation Environment](https://github.com/nkymark/SimEngineBenchmark#the-simulation-environment)
+  5. [Simulation Environment](https://github.com/nkymark/SimEngineBenchmark#the-simulation-environment)
 
 
 ## Introduction
