@@ -14,5 +14,5 @@ Simulation Benchmark Model for Fault Diagnosis", 2019.
 The simulation environment uses a 1.8L 4-cylinder single turbocharged spark ignited (TCSI) petrol engine as the benchmark. It consists of the following subsystems: Air filter, Compressor, Intercooler, Throttle, Intake manifold, Engine block, Exhaust manifold, Turbine, Wastegate, and Exhaust system. The engine system is modelled using dynamical equations that describe the air flow through the subsystems in the engine. These equations are derived based on the mean value engine model (MVEM) for a single turbocharged petrol engine as reported by Eriksson in the following paper:
 - [L. Eriksson. "Modeling and control of turbocharged SI and DI engines," *Oil & Gas Science and Technology-Revue de l'IFP*, 62(4), pp.523-538, 2007.](https://ogst.ifpenergiesnouvelles.fr/articles/ogst/abs/2007/04/ogst06101/ogst06101.html)
 
-![Engine Diagram](file:///Users/markng/⁨Documents/⁨Linkoping/mark_svn/⁨Papers/Paper1/Final/Figures⁩/EngineDiag.png "Engine Diagram")
+![Engine Diagram](./Figures⁩/EngineDiag.png "Engine Diagram")
 
