@@ -27,6 +27,6 @@ The faults are of different degrees of severity. Some faults are less severe and
 
 ## The Simulation Environment
 The figure below shows the GUI of the benchmark model in MATLAB. Through this interface, the user can set the preferences for simulation settings, design and test their residuals generation and fault diagnosis schemes, as well as view simulation results.
-<img src"/Figures/GUI.png">
+![]("/Figures/GUI.png")
 
 
