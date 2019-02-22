@@ -27,6 +27,7 @@ The faults are of different degrees of severity. Some faults are less severe and
 
 ## The Simulation Environment
 The figure below shows the GUI of the benchmark model in MATLAB. Through this interface, the user can set the preferences for simulation settings, design and test their residuals generation and fault diagnosis schemes, as well as view simulation results.
-![]("/Figures/GUI.png")
+![](/Figures/GUI.png)
+###### The main GUI of the benchmark model in MATLAB; 1) Sets the fault mode for simulation. 2) Sets the driving cycle. 3) Sets the simulation mode. 4) Runs the simulation. 5) Exits and closes the benchmark GUI. 6) Shows the simulation progress and log. 7) Click to open the reference generator Simulink model. 8–9) Click to open the boost controller and engine Simulink model. 10) Click to open the residuals generator Simulink model. 11) Click to open the fault diagnosis design scheme M-file. 12) Click to open the residuals generator design scheme M-file. 13) Displays the residuals generated. 14) Displays the reference torque vs actual torque of the engine. 15) Displays the fault signal induced (normalised).
 
-
+In the top right section of the GUI, a block diagram representation of the engine control system, residuals generator, and fault diagnosis scheme can be found. The user can click on each block to access the corresponding Simulink model or M-file. For example, the user could use the ‘Residuals Generator (Simulink)’, ‘Residuals Generator Design (M-file)’, and ‘Fault Isolation Scheme Design (M-file)’ components to edit their design and codes for the residuals generation and fault diagnosis algorithms. The ‘RUN SIMULATION’ pushbutton starts the simulation and the ‘EXIT’ pushbutton exits the simulation environment and closes the GUI.
