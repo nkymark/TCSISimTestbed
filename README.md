@@ -60,7 +60,7 @@ In the left section of the GUI are popup menus for the user to establish some ke
 
 - *Simulation Mode*: A choice of 2 simulation modes:
   * Simulate the engine only for the chosen driving cycle 
-  * Simulate the engine for the chosen driving cycle,generate the residuals, and run the fault diagnosis algorithm (the latter two functions would require design and coding inputs from the user)
+  * Simulate the engine for the chosen driving cycle, generate the residuals, and run the fault diagnosis algorithm (the latter two functions would require design and coding inputs from the user)
 
 In the top right section of the GUI, a block diagram representation of the engine control system, residuals generator, and fault diagnosis scheme can be found. The user can click on each block to access the corresponding Simulink model or M-file. For example, the user could use the ‘Residuals Generator (Simulink)’, ‘Residuals Generator Design (M-file)’, and ‘Fault Isolation Scheme Design (M-file)’ components to edit their design and codes for the residuals generation and fault diagnosis algorithms. The ‘RUN SIMULATION’ pushbutton starts the simulation and the ‘EXIT’ pushbutton exits the simulation environment and closes the GUI.
 
@@ -72,6 +72,16 @@ The simulation kit contains the following key files:
 - ``GenerateResiduals.m`` - Codes for the residuals generation algorithm to be placed here. Open the file from the GUI using the ‘Residuals Generator Design (M-file)’ button.
 - ``ResidualsGen.mdl`` - Simulink model of the residuals generator. The model is called and run from ``GenerateResiduals.m``. The default residuals generated are also filtered and normalised, and added with signal noise. Open the model from the GUI using the ‘Residuals Generator (Simulink)’ block. Replace the ‘Residuals Generator’ in the Simulink model as desired to accommodate other methods for residuals generation.
 - ``RunFI.m`` - Algorithm for fault diagnosis to be placed here. Open the file from the GUI using the ‘Fault Isolation Scheme Design (M-file)’ block.
+
+
+#### Simulation Outputs and Saved Data
+- ``omega_eREF_sync`` - reference engine speed
+- ``Tq_eREF_sync`` - reference engine torque
+- ``inputSig_sync`` - 5 actuator measurements to the engine (control inputs for throttle position area and wastegate, engine speed, ambient temperature and pressure)
+- ``outputSig_sync`` - 9 sensor measurements from the engine (temperatures for the compressor, intercooler, and intake manifold, pressures for the compressor, intercooler, intake manifold, and exhaust manifold), air filter mass flow, and engine torque)
+- ``statesSig_sync`` - 13 states of the engine system (temperatures and pressures for the air filter, compressor, intercooler, intake manifold, exhaust manifold, and turbine, and the turbine speed)
+- ``faultSig_sync`` - normalised data of the faults (the selected induced fault would have non-zero data, except when 'Fault-free' scenario is selected where all faults would have data of value zero)
+- ``residualSig_sync`` - data for all 'Original 9' residuals based on the current sensors setup (``rT_c``, ``rp_c``, ``rT_ic``, ``rp_ic``, ``rT_im``, ``rp_im``, ``rW_af``, ``rTq_e``, ``rp_em``). Note that these data would only be generated if Simulation Mode 2 is selected. 
 
 
 #### Acknowledgement 
