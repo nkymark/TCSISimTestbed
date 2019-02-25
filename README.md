@@ -42,13 +42,25 @@ In a nominal fault-free scenario, all residuals have zero mean values.. This ind
 
 <img src="/Figures/faultfree.png" width="400" height="200"> &emsp; &emsp; &emsp;<img src="/Figures/paf.png" width="400" height="200">
 
-By collectively identifying which residuals have triggered for the faults induced, fault isolation analysis to locate the fault in the engine system can then be performed.
+<p><img src="/Figures/FIMsimu.png" width="200" align="right"><span>By collectively identifying which residuals have triggered for the faults induced, fault isolation analysis to locate the fault in the engine system can then be performed. From the simulations for all faults, the Fault Sensitivity Matrix (FSM) is constructed. Using the FSM, the Fault Isolation Matrix (FIM) of the system for the current residuals design can then be generated. Therefore, this benchmark model would serve as an excellent platform for designers and researchers to design and to perform Model-In-The-Loop tests of fault diagnosis schemes with application to actual automotive engine systems.</span></p>
 
 
 ## The Simulation Environment
 The figure below shows the GUI of the benchmark model in MATLAB. Through this interface, the user can set the preferences for simulation settings, design and test their residuals generation and fault diagnosis schemes, as well as view simulation results.
 ![](/Figures/GUI.png)
 ###### The main GUI of the benchmark model in MATLAB; 1) Sets the fault mode for simulation. 2) Sets the driving cycle. 3) Sets the simulation mode. 4) Runs the simulation. 5) Exits and closes the benchmark GUI. 6) Shows the simulation progress and log. 7) Click to open the reference generator Simulink model. 8–9) Click to open the boost controller and engine Simulink model. 10) Click to open the residuals generator Simulink model. 11) Click to open the fault diagnosis design scheme M-file. 12) Click to open the residuals generator design scheme M-file. 13) Displays the residuals generated. 14) Displays the reference torque vs actual torque of the engine. 15) Displays the fault signal induced (normalised).
+
+In the left section of the GUI are popup menus for the user to establish some key simulation settings. The simulation settings available are as follows:
+- *Fault Mode*: To induce any of the 11 faults available. A fault-free scenario is also available and is selected by default. As of current development, only single fault scenarios are available.
+- *Driving Cycle*: A selection of 4 industrial standard driving cycles:
+  * Worldwide harmonised Light vehicles Test Proce- dure (WLTP)
+  * New European Driving Cycle (NEDC)
+  * Extra-Urban Driving Cycle (EUDC)
+  * EPA Federal Test Procedure (FTP-75)
+
+- *Simulation Mode*: A choice of 2 simulation modes:
+  * Simulate the engine only for the chosen driving cycle 
+  * Simulate the engine for the chosen driving cycle,generate the residuals, and run the fault diagnosis algorithm (the latter two functions would require design and coding inputs from the user)
 
 In the top right section of the GUI, a block diagram representation of the engine control system, residuals generator, and fault diagnosis scheme can be found. The user can click on each block to access the corresponding Simulink model or M-file. For example, the user could use the ‘Residuals Generator (Simulink)’, ‘Residuals Generator Design (M-file)’, and ‘Fault Isolation Scheme Design (M-file)’ components to edit their design and codes for the residuals generation and fault diagnosis algorithms. The ‘RUN SIMULATION’ pushbutton starts the simulation and the ‘EXIT’ pushbutton exits the simulation environment and closes the GUI.
 
