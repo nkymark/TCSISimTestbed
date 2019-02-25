@@ -46,7 +46,7 @@ In a nominal fault-free scenario, all residuals have zero mean values.. This ind
 
 
 ## The Simulation Environment
-The figure below shows the GUI of the benchmark model in MATLAB. Through this interface, the user can set the preferences for simulation settings, design and test their residuals generation and fault diagnosis schemes, as well as view simulation results. Do note that it will take some time to open and load the engine model during the initial runtime session of Simulink everytime MATLAB is used.
+The figure below shows the GUI of the benchmark model in MATLAB. Through this interface, the user can set the preferences for simulation settings, design and test their residuals generation and fault diagnosis schemes, as well as view simulation results. *Do note that it will take some time to open and load the engine model during the initial runtime of Simulink for every new MATLAB session*.
 
 ![](/Figures/GUI.png)
 ###### The main GUI of the benchmark model in MATLAB; 1) Sets the fault mode for simulation. 2) Sets the driving cycle. 3) Sets the simulation mode. 4) Runs the simulation. 5) Exits and closes the benchmark GUI. 6) Shows the simulation progress and log. 7) Click to open the reference generator Simulink model. 8–9) Click to open the boost controller and engine Simulink model. 10) Click to open the residuals generator Simulink model. 11) Click to open the fault diagnosis design scheme M-file. 12) Click to open the residuals generator design scheme M-file. 13) Displays the residuals generated. 14) Displays the reference torque vs actual torque of the engine. 15) Displays the fault signal induced (normalised).
