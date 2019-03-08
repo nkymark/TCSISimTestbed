@@ -86,4 +86,4 @@ The simulation kit contains the following key files:
 
 
 #### Acknowledgement 
-We would like to thank former engineering undergraduate from Monash University, Malaysia; Chun Yik Ang, Marcus Jun Yi Lim, and Ricky Sutopo, for participating in the alpha-testing of the simulation benchmark on various operating systems and providing feedback to help improve this benchmark model. 
+We would like to thank former engineering undergraduate from Monash University, Malaysia; Chun Yik Ang, Marcus Jun Yi Lim, and Ricky Sutopo, and William McMillan from Ulster University for participating in the alpha-testing of the simulation benchmark on various operating systems and providing feedback to help improve this benchmark model. 
