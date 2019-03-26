@@ -67,6 +67,8 @@ In the top right section of the GUI, a block diagram representation of the engin
 
 The results obtained from the simulation are displayed in the bottom right section of the GUI. The results displayed are the reference vs actual engine torque, and the normalised plot of the fault induced. A ‘Simulation Log’ is also available in the bottom left section of the GUI to show a summary of the simulation settings and to provide an update in real-time on the progress of the simulation. The plots and the ‘Simulation Log’ are automatically saved into the folder ``‘/Results/DrivingCycle_FaultMode_Date’`` that is located in the same directory as the simulation environment. A MATLAB MAT-file containing key variables and data from the simulation is also saved.
 
+<img src="/Figures/SimScopes.png" width="600">
+
 The simulation kit contains the following key files:
 - ``main.m`` - Main execution file. Run this file to start the GUI.
 - ``Engine.mdl`` - Simulink model of the closed-loop nonlinear engine system. Open the model from the GUI using either the ‘Boost Controller (Simulink)’ or ‘Engine System (Simulink)’ blocks.
