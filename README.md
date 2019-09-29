@@ -37,7 +37,7 @@ Initially, 9 residuals are generated based on the sensors setup of the engine sy
 	
 <img src="/Figures/BlockDiagram.png" width="600">
 	
-In a nominal fault-free scenario, all residuals have zero mean values.. This indicates that both the estimator and the model of the engine produce similar estimated and actual outputs, respectively, whilst being excited by the same control inputs. The default fault detection threshold, ``J = 5`` determines if the residuals have triggered, i.e. ``|ri| > J`` and hence, indicates that a fault has been detected. The value of the threshold, ``J``, can be easily changed according to the designer’s wish. Conversely, in the presence of a fault, residuals that are sensitive to the corresponding faults would trigger and produce non-zero mean values.
+In a nominal fault-free scenario, all residuals have zero mean values.. This indicates that both the estimator and the model of the engine produce similar estimated and actual outputs, respectively, whilst being excited by the same control inputs. The default fault detection threshold, ``J = 5`` determines if the residuals have triggered, i.e. ``|r_i| > J`` and hence, indicates that a fault has been detected. The value of the threshold, ``J``, can be easily changed according to the designer’s wish. Conversely, in the presence of a fault, residuals that are sensitive to the corresponding faults would trigger and produce non-zero mean values.
 	
 <img src="/Figures/faultfree.png" width="400" height="200"> &emsp; &emsp; &emsp;<img src="/Figures/paf.png" width="400" height="200">
 	
