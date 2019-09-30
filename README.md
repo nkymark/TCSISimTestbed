@@ -1,4 +1,4 @@
-# SimEngineBenchmark
+# TCSI Simulation Testbed
 
 ## Table of Contents
   1. [Introduction](https://github.com/nkymark/SimEngineBenchmark#introduction)
