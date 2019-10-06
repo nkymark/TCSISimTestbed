@@ -76,7 +76,7 @@ The simulation kit contains the following key files:
 - ``RunFI.m`` - Algorithm for fault diagnosis to be placed here. Open the file from the GUI using the ‘Fault Isolation Scheme Design (M-file)’ block.
 	
 	
-#### Simulation Outputs and Saved Data
+### Simulation Outputs and Saved Data
 - ``omega_eREF_sync`` - reference engine speed
 - ``Tq_eREF_sync`` - reference engine torque
 - ``inputSig_sync`` - 5 actuator measurements to the engine (control inputs for throttle position area and wastegate, engine speed, ambient temperature and pressure)
@@ -86,5 +86,5 @@ The simulation kit contains the following key files:
 - ``residualSig_sync`` - data for all 'Original 9' residuals based on the current sensors setup (``rT_c``, ``rp_c``, ``rT_ic``, ``rp_ic``, ``rT_im``, ``rp_im``, ``rW_af``, ``rTq_e``, ``rp_em``). Note that these data would only be generated if Simulation Mode 2 is selected. 
 	
 	
-#### Acknowledgement 
+### Acknowledgement 
 We would like to thank former engineering undergraduate from Monash University, Malaysia; Chun Yik Ang, Marcus Jun Yi Lim, and Ricky Sutopo, and William McMillan from Ulster University for participating in the alpha-testing of the simulation benchmark on various operating systems and providing feedback to help improve this benchmark model. 
