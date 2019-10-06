@@ -40,9 +40,9 @@ Initially, 9 residuals are generated based on the sensors setup of the engine sy
 	
 In a nominal fault-free scenario, all residuals have zero mean values.. This indicates that both the estimator and the model of the engine produce similar estimated and actual outputs, respectively, whilst being excited by the same control inputs. The default fault detection threshold, ``J = 5`` determines if the residuals have triggered, i.e. ``|r_i| > J`` and hence, indicates that a fault has been detected. The value of the threshold, ``J``, can be easily changed according to the designer’s wish. Conversely, in the presence of a fault, residuals that are sensitive to the corresponding faults would trigger and produce non-zero mean values.
 	
-<img src="/Figures/faultfree.png" width="400">&emsp;<img src="/Figures/paf.png" width="400">
+<img src="/Figures/faultfree.png" width="400" height="300">&emsp;<img src="/Figures/paf.png" width="400" height="300">
 	
-<p><img src="/Figures/FIMsimu.png" width="250" align="right"><span>By collectively identifying which residuals have triggered for the faults induced, fault isolation analysis to locate the fault in the engine system can then be performed. From the simulations for all faults, the Fault Sensitivity Matrix (FSM) is constructed. Using the FSM, the Fault Isolation Matrix (FIM) of the system for the current residuals design can then be generated. Therefore, this simulation testbed would serve as an excellent platform for designers and researchers to design and to perform Model-In-The-Loop tests of fault diagnosis schemes with application to actual automotive engine systems.</span></p>
+<p><img src="/Figures/FIMsimu.png" width="300" align="right"><span>By collectively identifying which residuals have triggered for the faults induced, fault isolation analysis to locate the fault in the engine system can then be performed. From the simulations for all faults, the Fault Sensitivity Matrix (FSM) is constructed. Using the FSM, the Fault Isolation Matrix (FIM) of the system for the current residuals design can then be generated. Therefore, this simulation testbed would serve as an excellent platform for designers and researchers to design and to perform Model-In-The-Loop tests of fault diagnosis schemes with application to actual automotive engine systems.</span></p>
 	
 	
 ## The Simulation Environment ##
@@ -67,7 +67,7 @@ On the top right section of the GUI, a block diagram representation of the engin
 	
 The results obtained from the simulation are displayed in the bottom right section of the GUI. The results displayed are the reference vs actual engine torque, and the normalised plot of the fault induced. A ‘Simulation Log’ is also available in the bottom left section of the GUI to show a summary of the simulation settings and to provide an update in real-time on the progress of the simulation. The plots and the ‘Simulation Log’ are automatically saved into the folder ``‘/Results/DrivingCycle_FaultMode_Date’`` that is located in the same directory as the simulation environment. A Matlab MAT-file containing key variables and data from the simulation is also saved.
 	
-<img src="/Figures/SimScopes.png" width="600">
+![](/Figures/SimScopes.png)
 	
 The simulation kit contains the following key files:
 - ``main.m`` - Main execution file. Run this file to start the GUI.
