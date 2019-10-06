@@ -50,7 +50,8 @@ The figure below shows the GUI of the simulation testbed in Matlab. Through this
 	
 ![](/Figures/GUI.png)
 ###### The main GUI of the simulation testbed in Matlab; 1) Sets the fault mode for simulation. 2) Sets the driving cycle. 3) Sets the simulation mode. 4) Runs the simulation. 5) Exits and closes the GUI. 6) Shows the simulation progress and log. 7) Click to open the reference generator Simulink model. 8–9) Click to open the boost controller and engine Simulink model. 10) Click to open the residuals generator Simulink model. 11) Click to open the fault diagnosis design scheme m-file. 12) Click to open the residuals generator design scheme m-file. 13) Displays the residuals generated. 14) Displays the reference torque vs actual torque of the engine. 15) Displays the fault signal induced (normalised). ######  
-  
+
+#  #  
   
 On the left section of the GUI are popup menus for the user to establish some key simulation settings. The simulation settings available are as follows:
 - *Fault Mode*: To induce any of the 11 faults available. A fault-free scenario is also available and is selected by default. As of current development, only single fault scenarios are available.
