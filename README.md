@@ -15,7 +15,7 @@ Research on fault diagnosis and fault isolation on highly nonlinear dynamic syst
 This simulation testbed will serve as an excellent platform to demonstrate the effectiveness in simulating and presenting results on the fault diagnostic of automotive systems for the development and comparison of current and future research methods as well as for teaching initiatives. The engine model used is based on the mean value engine model (MVEM) with a PI-based boost controller. The simulation testbed is programmed in the Matlab/Simulink environment and it provides realistic simulations of the engine system with a selection of faults of interest and industrial-standard driving cycles via a GUI interface. The simulation kit is available free and as an open-source, and distribued under the [GNU license](https://en.wikipedia.org/wiki/GNU_General_Public_License).
 
 If you use this simulation testbed in your research, please cite the following publication:
-- K. Y. Ng, E. Frisk, M. Krysander, and L. Eriksson, "A Realistic Simulation Testbed of A Turbocharged Spark Ignited Engine System: A Platform for the Evaluation of Fault Diagnosis Algorithms and Strategies," *IEEE Control Systems* (*In Press*), 2020.
+- K. Y. Ng, E. Frisk, M. Krysander, and L. Eriksson, "A Realistic Simulation Testbed of A Turbocharged Spark Ignited Engine System: A Platform for the Evaluation of Fault Diagnosis Algorithms and Strategies," *IEEE Control Systems* (*In Press*), 2020. ([Preprint](https://arxiv.org/abs/2002.03201))  
 
 
 ## Modelling The Engine ##
