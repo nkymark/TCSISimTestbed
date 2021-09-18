@@ -1,4 +1,4 @@
-# TCSI Simulation Testbed #
+# Digital Twin of a TCSI System #
 
 ## Table of Contents ##
   1. [Introduction](https://github.com/nkymark/TCSISimTestbed#introduction)
@@ -10,7 +10,7 @@
 
 
 ## Introduction ##
-Research on fault diagnosis and fault isolation on highly nonlinear dynamic systems such as the engine of a vehicle has garnered huge interest in recent years, especially with the automotive industry heading towards autonomous operations and big data. This simulation testbed of a single turbocharged petrol engine engine system is designed and developed for testing and evaluation of residuals generation and fault diagnosis methods.
+Research on fault diagnosis and fault isolation on highly nonlinear dynamic systems such as the engine of a vehicle has garnered huge interest in recent years, especially with the automotive industry heading towards autonomous operations and big data. This digital twin (simulation testbed) of a single turbocharged petrol engine engine system is designed and developed for testing and evaluation of residuals generation and fault diagnosis methods.
 
 This simulation testbed will serve as an excellent platform to demonstrate the effectiveness in simulating and presenting results on the fault diagnostic of automotive systems for the development and comparison of current and future research methods as well as for teaching initiatives. The engine model used is based on the mean value engine model (MVEM) with a PI-based boost controller. The simulation testbed is programmed in the Matlab/Simulink environment and it provides realistic simulations of the engine system with a selection of faults of interest and industrial-standard driving cycles via a GUI interface. The simulation kit is available free and as an open-source, and distributed under the [GNU license](https://en.wikipedia.org/wiki/GNU_General_Public_License).
 
