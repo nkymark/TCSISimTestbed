@@ -1,6 +1,6 @@
 # Digital Twin of a TCSI System #
 
-[![CLick here for Demo Video on YouTube](https://img.youtube.com/vi/0V6uzxBFoC0/0.jpg)](https://www.youtube.com/watch?v=0V6uzxBFoC0)
+[![CLick here for Demo Video on YouTube](/Assets/TCSI_Thumbnail.png)](https://www.youtube.com/watch?v=0V6uzxBFoC0)
 
 ## Table of Contents ##
   1. [Introduction](https://github.com/nkymark/TCSISimTestbed#introduction)
