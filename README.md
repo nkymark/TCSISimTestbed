@@ -52,6 +52,7 @@ In a nominal fault-free scenario, all residuals have zero mean values.. This ind
 </br>
 </br>
 </br>
+</br>
 
 ## The Simulation Environment ##
 The figure below shows the GUI of the simulation testbed in Matlab. Through this interface, the user can set the preferences for simulation settings, design and test their residuals generation and fault diagnosis schemes, as well as view simulation results. *Do note that it will take some time to open and load the engine model during the initial runtime of Simulink for every new Matlab session*.
