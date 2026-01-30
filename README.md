@@ -48,7 +48,8 @@ In a nominal fault-free scenario, all residuals have zero mean values.. This ind
 <img src="https://www.markusng.com/assets/Figures/faultfree.png" width="400" height="300">&emsp;<img src="https://www.markusng.com/assets/Figures/paf.png" width="400" height="300">
 
 <p><img src="https://www.markusng.com/assets/Figures/FIMsimu.png" width="300" align="right"><span>By collectively identifying which residuals have triggered for the faults induced, fault isolation analysis to locate the fault in the engine system can then be performed. From the simulations for all faults, the Fault Sensitivity Matrix (FSM) is constructed. Using the FSM, the Fault Isolation Matrix (FIM) of the system for the current residuals design can then be generated. Therefore, this simulation testbed would serve as an excellent platform for designers and researchers to design and to perform Model-In-The-Loop tests of fault diagnosis schemes with application to actual automotive engine systems.</span></p>
-
+</br>
+</br>
 
 ## The Simulation Environment ##
 The figure below shows the GUI of the simulation testbed in Matlab. Through this interface, the user can set the preferences for simulation settings, design and test their residuals generation and fault diagnosis schemes, as well as view simulation results. *Do note that it will take some time to open and load the engine model during the initial runtime of Simulink for every new Matlab session*.
