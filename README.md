@@ -3,12 +3,12 @@
 [![CLick here for Demo Video on YouTube](/Assets/TCSI_Thumbnail.png)](https://www.youtube.com/watch?v=0V6uzxBFoC0)
 
 ## Table of Contents ##
-  1. [Introduction](https://github.com/nkymark/TCSISimTestbed#introduction)
-  2. [Modelling The Engine](https://github.com/nkymark/TCSISimTestbed#modelling-the-engine)
-  3. [Fault Scenarios](https://github.com/nkymark/TCSISimTestbed#fault-scenarios)
-  4. [Residuals Generation](https://github.com/nkymark/TCSISimTestbed#residuals-generation)
-  5. [Simulation Environment](https://github.com/nkymark/TCSISimTestbed#the-simulation-environment)
-  6. [Download](https://github.com/nkymark/TCSISimTestbed#download)
+  1. [Introduction](https://github.com/nkymark/TCSISimTestbed?tab=readme-ov-file#introduction)
+  2. [Modelling The Engine](https://github.com/nkymark/TCSISimTestbed?tab=readme-ov-file#modelling-the-engine)
+  3. [Fault Scenarios](https://github.com/nkymark/TCSISimTestbed?tab=readme-ov-file#fault-scenarios)
+  4. [Residuals Generation](https://github.com/nkymark/TCSISimTestbed?tab=readme-ov-file#residuals-generation)
+  5. [Simulation Environment](https://github.com/nkymark/TCSISimTestbed?tab=readme-ov-file#the-simulation-environment)
+  6. [Download](https://github.com/nkymark/TCSISimTestbed?tab=readme-ov-file#download)
 
 
 ## Introduction ##
